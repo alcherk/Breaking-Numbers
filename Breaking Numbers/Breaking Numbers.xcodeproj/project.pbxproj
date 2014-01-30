@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3707EBE1898BA5E0000FE43 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3707EBD1898BA5E0000FE43 /* Cocoa.framework */; };
+		B3707EC81898BA5E0000FE43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3707EC61898BA5E0000FE43 /* InfoPlist.strings */; };
+		B3707ECA1898BA5E0000FE43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3707EC91898BA5E0000FE43 /* main.m */; };
+		B3707ECE1898BA5E0000FE43 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B3707ECC1898BA5E0000FE43 /* Credits.rtf */; };
+		B3707ED11898BA5E0000FE43 /* NKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3707ED01898BA5E0000FE43 /* NKAppDelegate.m */; };
+		B3707ED41898BA5E0000FE43 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3707ED21898BA5E0000FE43 /* MainMenu.xib */; };
+		B3707ED61898BA5E0000FE43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3707ED51898BA5E0000FE43 /* Images.xcassets */; };
+		B3707EDD1898BA5E0000FE43 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3707EDC1898BA5E0000FE43 /* XCTest.framework */; };
+		B3707EDE1898BA5E0000FE43 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3707EBD1898BA5E0000FE43 /* Cocoa.framework */; };
+		B3707EE61898BA5E0000FE43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3707EE41898BA5E0000FE43 /* InfoPlist.strings */; };
+		B3707EE81898BA5E0000FE43 /* CircledSquareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3707EE71898BA5E0000FE43 /* CircledSquareTests.m */; };
+		B3707EF51898BC600000FE43 /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3707EF41898BC600000FE43 /* back.jpg */; };
+		B3707EF81898BE780000FE43 /* NKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3707EF71898BE780000FE43 /* NKViewController.m */; };
+		B3707EFA1898CD660000FE43 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3707EF91898CD660000FE43 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3707EDF1898BA5E0000FE43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3707EB21898BA5E0000FE43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3707EB91898BA5E0000FE43;
+			remoteInfo = CircledSquare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3707EBA1898BA5E0000FE43 /* Breaking Numbers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Breaking Numbers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3707EBD1898BA5E0000FE43 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B3707EC01898BA5E0000FE43 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B3707EC11898BA5E0000FE43 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B3707EC21898BA5E0000FE43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3707EC51898BA5E0000FE43 /* Breaking Numbers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Breaking Numbers-Info.plist"; sourceTree = "<group>"; };
+		B3707EC71898BA5E0000FE43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3707EC91898BA5E0000FE43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3707ECB1898BA5E0000FE43 /* Breaking Numbers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Breaking Numbers-Prefix.pch"; sourceTree = "<group>"; };
+		B3707ECD1898BA5E0000FE43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B3707ECF1898BA5E0000FE43 /* NKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKAppDelegate.h; sourceTree = "<group>"; };
+		B3707ED01898BA5E0000FE43 /* NKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKAppDelegate.m; sourceTree = "<group>"; };
+		B3707ED31898BA5E0000FE43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B3707ED51898BA5E0000FE43 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B3707EDB1898BA5E0000FE43 /* Breaking NumbersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Breaking NumbersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3707EDC1898BA5E0000FE43 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B3707EE31898BA5E0000FE43 /* Breaking NumbersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Breaking NumbersTests-Info.plist"; sourceTree = "<group>"; };
+		B3707EE51898BA5E0000FE43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3707EE71898BA5E0000FE43 /* CircledSquareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircledSquareTests.m; sourceTree = "<group>"; };
+		B3707EF41898BC600000FE43 /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		B3707EF61898BE780000FE43 /* NKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKViewController.h; sourceTree = "<group>"; };
+		B3707EF71898BE780000FE43 /* NKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKViewController.m; sourceTree = "<group>"; };
+		B3707EF91898CD660000FE43 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3707EB71898BA5E0000FE43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3707EFA1898CD660000FE43 /* WebKit.framework in Frameworks */,
+				B3707EBE1898BA5E0000FE43 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3707ED81898BA5E0000FE43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3707EDE1898BA5E0000FE43 /* Cocoa.framework in Frameworks */,
+				B3707EDD1898BA5E0000FE43 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3707EB11898BA5E0000FE43 = {
+			isa = PBXGroup;
+			children = (
+				B3707ED21898BA5E0000FE43 /* MainMenu.xib */,
+				B3707EC31898BA5E0000FE43 /* CircledSquare */,
+				B3707EE11898BA5E0000FE43 /* CircledSquareTests */,
+				B3707EBC1898BA5E0000FE43 /* Frameworks */,
+				B3707EBB1898BA5E0000FE43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3707EBB1898BA5E0000FE43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3707EBA1898BA5E0000FE43 /* Breaking Numbers.app */,
+				B3707EDB1898BA5E0000FE43 /* Breaking NumbersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3707EBC1898BA5E0000FE43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3707EF91898CD660000FE43 /* WebKit.framework */,
+				B3707EBD1898BA5E0000FE43 /* Cocoa.framework */,
+				B3707EDC1898BA5E0000FE43 /* XCTest.framework */,
+				B3707EBF1898BA5E0000FE43 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3707EBF1898BA5E0000FE43 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3707EC01898BA5E0000FE43 /* AppKit.framework */,
+				B3707EC11898BA5E0000FE43 /* CoreData.framework */,
+				B3707EC21898BA5E0000FE43 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B3707EC31898BA5E0000FE43 /* CircledSquare */ = {
+			isa = PBXGroup;
+			children = (
+				B3707EF31898BC160000FE43 /* Controller */,
+				B3707EF21898BC140000FE43 /* View */,
+				B3707EF11898BC0E0000FE43 /* Model */,
+				B3707EC41898BA5E0000FE43 /* Supporting Files */,
+			);
+			path = CircledSquare;
+			sourceTree = "<group>";
+		};
+		B3707EC41898BA5E0000FE43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3707EF41898BC600000FE43 /* back.jpg */,
+				B3707ED51898BA5E0000FE43 /* Images.xcassets */,
+				B3707EC51898BA5E0000FE43 /* Breaking Numbers-Info.plist */,
+				B3707EC61898BA5E0000FE43 /* InfoPlist.strings */,
+				B3707EC91898BA5E0000FE43 /* main.m */,
+				B3707ECB1898BA5E0000FE43 /* Breaking Numbers-Prefix.pch */,
+				B3707ECC1898BA5E0000FE43 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3707EE11898BA5E0000FE43 /* CircledSquareTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3707EE71898BA5E0000FE43 /* CircledSquareTests.m */,
+				B3707EE21898BA5E0000FE43 /* Supporting Files */,
+			);
+			path = CircledSquareTests;
+			sourceTree = "<group>";
+		};
+		B3707EE21898BA5E0000FE43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3707EE31898BA5E0000FE43 /* Breaking NumbersTests-Info.plist */,
+				B3707EE41898BA5E0000FE43 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3707EF11898BC0E0000FE43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3707ECF1898BA5E0000FE43 /* NKAppDelegate.h */,
+				B3707ED01898BA5E0000FE43 /* NKAppDelegate.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B3707EF21898BC140000FE43 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B3707EF31898BC160000FE43 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B3707EF61898BE780000FE43 /* NKViewController.h */,
+				B3707EF71898BE780000FE43 /* NKViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3707EB91898BA5E0000FE43 /* Breaking Numbers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3707EEB1898BA5E0000FE43 /* Build configuration list for PBXNativeTarget "Breaking Numbers" */;
+			buildPhases = (
+				B3707EB61898BA5E0000FE43 /* Sources */,
+				B3707EB71898BA5E0000FE43 /* Frameworks */,
+				B3707EB81898BA5E0000FE43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Breaking Numbers";
+			productName = CircledSquare;
+			productReference = B3707EBA1898BA5E0000FE43 /* Breaking Numbers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3707EDA1898BA5E0000FE43 /* Breaking NumbersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3707EEE1898BA5E0000FE43 /* Build configuration list for PBXNativeTarget "Breaking NumbersTests" */;
+			buildPhases = (
+				B3707ED71898BA5E0000FE43 /* Sources */,
+				B3707ED81898BA5E0000FE43 /* Frameworks */,
+				B3707ED91898BA5E0000FE43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3707EE01898BA5E0000FE43 /* PBXTargetDependency */,
+			);
+			name = "Breaking NumbersTests";
+			productName = CircledSquareTests;
+			productReference = B3707EDB1898BA5E0000FE43 /* Breaking NumbersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3707EB21898BA5E0000FE43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NK;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Nikita Kolmogorov";
+				TargetAttributes = {
+					B3707EDA1898BA5E0000FE43 = {
+						TestTargetID = B3707EB91898BA5E0000FE43;
+					};
+				};
+			};
+			buildConfigurationList = B3707EB51898BA5E0000FE43 /* Build configuration list for PBXProject "Breaking Numbers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3707EB11898BA5E0000FE43;
+			productRefGroup = B3707EBB1898BA5E0000FE43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3707EB91898BA5E0000FE43 /* Breaking Numbers */,
+				B3707EDA1898BA5E0000FE43 /* Breaking NumbersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3707EB81898BA5E0000FE43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3707EC81898BA5E0000FE43 /* InfoPlist.strings in Resources */,
+				B3707EF51898BC600000FE43 /* back.jpg in Resources */,
+				B3707ED61898BA5E0000FE43 /* Images.xcassets in Resources */,
+				B3707ECE1898BA5E0000FE43 /* Credits.rtf in Resources */,
+				B3707ED41898BA5E0000FE43 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3707ED91898BA5E0000FE43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3707EE61898BA5E0000FE43 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3707EB61898BA5E0000FE43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3707EF81898BE780000FE43 /* NKViewController.m in Sources */,
+				B3707ECA1898BA5E0000FE43 /* main.m in Sources */,
+				B3707ED11898BA5E0000FE43 /* NKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3707ED71898BA5E0000FE43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3707EE81898BA5E0000FE43 /* CircledSquareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3707EE01898BA5E0000FE43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3707EB91898BA5E0000FE43 /* Breaking Numbers */;
+			targetProxy = B3707EDF1898BA5E0000FE43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3707EC61898BA5E0000FE43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3707EC71898BA5E0000FE43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B3707ECC1898BA5E0000FE43 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3707ECD1898BA5E0000FE43 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B3707ED21898BA5E0000FE43 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3707ED31898BA5E0000FE43 /* Base */,
+			);
+			name = MainMenu.xib;
+			path = CircledSquare;
+			sourceTree = "<group>";
+		};
+		B3707EE41898BA5E0000FE43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3707EE51898BA5E0000FE43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3707EE91898BA5E0000FE43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B3707EEA1898BA5E0000FE43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B3707EEC1898BA5E0000FE43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircledSquare/Breaking Numbers-Prefix.pch";
+				INFOPLIST_FILE = "CircledSquare/Breaking Numbers-Info.plist";
+				PRODUCT_NAME = "Breaking Numbers";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B3707EED1898BA5E0000FE43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircledSquare/Breaking Numbers-Prefix.pch";
+				INFOPLIST_FILE = "CircledSquare/Breaking Numbers-Info.plist";
+				PRODUCT_NAME = "Breaking Numbers";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B3707EEF1898BA5E0000FE43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CircledSquare.app/Contents/MacOS/CircledSquare";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircledSquare/CircledSquare-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CircledSquareTests/Breaking NumbersTests-Info.plist";
+				PRODUCT_NAME = "Breaking NumbersTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B3707EF01898BA5E0000FE43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CircledSquare.app/Contents/MacOS/CircledSquare";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircledSquare/CircledSquare-Prefix.pch";
+				INFOPLIST_FILE = "CircledSquareTests/Breaking NumbersTests-Info.plist";
+				PRODUCT_NAME = "Breaking NumbersTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3707EB51898BA5E0000FE43 /* Build configuration list for PBXProject "Breaking Numbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3707EE91898BA5E0000FE43 /* Debug */,
+				B3707EEA1898BA5E0000FE43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3707EEB1898BA5E0000FE43 /* Build configuration list for PBXNativeTarget "Breaking Numbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3707EEC1898BA5E0000FE43 /* Debug */,
+				B3707EED1898BA5E0000FE43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3707EEE1898BA5E0000FE43 /* Build configuration list for PBXNativeTarget "Breaking NumbersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3707EEF1898BA5E0000FE43 /* Debug */,
+				B3707EF01898BA5E0000FE43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3707EB21898BA5E0000FE43 /* Project object */;
+}
